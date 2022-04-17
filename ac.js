@@ -2,7 +2,7 @@ $(document).ready(function () {
             $("#search").autocomplete({
                 source: function (request, response) {
                     $.ajax({
-                        url: "http://dev.virtualearth.net/REST/v1/Locations",
+                        url: "https://dev.virtualearth.net/REST/v1/Locations",
                         dataType: "jsonp",
                         data: {
                             key: "AtYQBO45F9ORGtHUJHDdZBmKHCEJoS6CsQFTJM3hb7fjRhI9BvPJHcIXkb1-MiWI",
